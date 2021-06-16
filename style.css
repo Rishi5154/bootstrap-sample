@@ -1,0 +1,13 @@
+/* to custom add some padding below navbar in order to displat the full icon */
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+/* for responsive input group - if input group >= 768 px in width */
+@media(min-width: 768px) {
+    .update-input {
+        width: 50%;
+    }
+}
